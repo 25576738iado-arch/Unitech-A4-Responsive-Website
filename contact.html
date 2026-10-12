@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unitech Online Outreach Community | Contact</title>
+  <meta name="description" content="Contact Unitech Online Outreach Community to discuss program enrolment or ask questions about online outreach activities.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Unitech Online Outreach</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><button type="button" class="theme-toggle" aria-pressed="false">Dark mode</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-banner">
+      <div class="container">
+        <p class="eyebrow">Contact and registration</p>
+        <h1>Tell us about your learning goals.</h1>
+      </div>
+    </section>
+
+    <section class="section form-section">
+      <div class="container contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow">We are here to help</p>
+          <h2>Get in touch</h2>
+          <p>We are happy to answer questions about upcoming online outreach activities, suitable programs for students or families, and next steps for joining an accredited learning community.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> hello@unitechoutreach.example</li>
+            <li><strong>Phone:</strong> (08) 5550 1264</li>
+            <li><strong>Hours:</strong> Monday to Friday, 9:00am–4:30pm</li>
+            <li><strong>Location:</strong> Online support and community sessions</li>
+          </ul>
+        </div>
+
+        <form action="#" method="post" class="enquiry-form" id="enquiry-form" novalidate>
+          <fieldset>
+            <legend>Participation enquiry</legend>
+            <div class="form-grid">
+              <div class="form-row"><label for="name">Full name</label><input type="text" id="name" name="name" autocomplete="name" required minlength="2" maxlength="80"></div>
+              <div class="form-row"><label for="email">Email address</label><input type="email" id="email" name="email" autocomplete="email" required maxlength="100"></div>
+              <div class="form-row"><label for="phone">Telephone number</label><input type="tel" id="phone" name="phone" autocomplete="tel" required pattern="^[+]?[(]?[0-9]{1,4}[)]?[-\s0-9]{7,15}$" maxlength="20"></div>
+              <div class="form-row"><label for="role">I am a</label><select id="role" name="role" required><option value="">Choose one</option><option value="student">Student</option><option value="parent">Parent or carer</option><option value="guardian">Guardian</option><option value="teacher">Teacher or school staff</option></select></div>
+              <div class="form-row form-full"><label for="program">Program of interest</label><select id="program" name="program" required><option value="">Choose a program</option><option value="student-digital-confidence">Student Digital Confidence</option><option value="careers-study-readiness">Careers and Study Readiness</option><option value="family-learning-connect">Family Learning Connect</option><option value="not-sure">Not sure yet; please advise me</option></select></div>
+            </div>
+
+            <fieldset class="inline-fieldset">
+              <legend>Preferred contact method</legend>
+              <div class="choice-group">
+                <label><input type="radio" name="contact-method" value="email" required> Email</label>
+                <label><input type="radio" name="contact-method" value="phone"> Phone</label>
+                <label><input type="radio" name="contact-method" value="sms"> SMS</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="inline-fieldset">
+              <legend>Areas of interest</legend>
+              <div class="choice-group">
+                <label><input type="checkbox" name="interests" value="digital-skills"> Digital skills</label>
+                <label><input type="checkbox" name="interests" value="study-support"> Study support</label>
+                <label><input type="checkbox" name="interests" value="wellbeing"> Wellbeing and confidence</label>
+                <label><input type="checkbox" name="interests" value="family-learning"> Family learning</label>
+              </div>
+            </fieldset>
+
+            <div class="form-grid">
+              <div class="form-row"><label for="date">Preferred start date</label><input type="date" id="date" name="date" required></div>
+              <div class="form-row form-full"><label for="message">Message</label><textarea id="message" name="message" rows="6" required minlength="20" maxlength="1000" aria-describedby="message-count" placeholder="Share a few details about your needs, questions, or the kind of support you would like."></textarea><small id="message-count" class="message-count">0 / 1000 characters</small></div>
+            </div>
+
+            <label class="checkbox-row" for="consent"><input type="checkbox" id="consent" name="consent" required> I consent to being contacted about my enquiry and understand this form is for sample website use only.</label>
+
+            <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+            <p class="form-note">Demonstration only: this website does not send or store enquiries.</p>
+            <div class="form-actions">
+              <button type="submit" class="button primary">Submit enquiry</button>
+              <button type="reset" class="button secondary">Reset</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div><h2>Unitech Online Outreach Community</h2><p>Helping learners and families find support in a welcoming online community.</p></div>
+      <div><h3>Quick links</h3><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="programs.html">Programs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h3>Contact</h3><p>Email: hello@unitechoutreach.example</p><p>Phone: (08) 5550 1264</p></div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
